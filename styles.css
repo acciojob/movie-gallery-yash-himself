@@ -12,7 +12,7 @@
 	padding:10px 5px;
 	background:lightseagreen
 }
-.item>img{
+.col-sm-1>img,.col-sm-2>img,.col-sm-4>img,.col-sm-12>img{
 	width:100px;
 	height:120px;
 	padding:0px 5px;
@@ -25,7 +25,7 @@
    padding:0;
 	  width:100%;
   }
-	.item>img{
+	.col-sm-1>img,.col-sm-2>img,.col-sm-4>img,.col-sm-12>img{
 		width:100%;
 		padding:5px 10px;
 		min-height:250px;
