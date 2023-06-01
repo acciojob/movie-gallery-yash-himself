@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.row{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding:10px 5px;
+	background:lightseagreen
+}
+.item>img{
+	width:100px;
+	height:120px;
+	padding:0px 5px;
+	
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+	  flex-direction:column;
+   padding:0;
+	  width:100%;
+  }
+	.item>img{
+		width:100%;
+		padding:5px 10px;
+		min-height:250px;
+		
+	}
+}
+
+
